@@ -1,0 +1,44 @@
+.eachListItem {
+  list-style-type: none;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 20px;
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.star-button {
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.date {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin: 0px;
+}
+.titleAndStareContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
